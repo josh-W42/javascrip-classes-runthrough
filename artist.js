@@ -1,6 +1,6 @@
 const Person = require("./person");
 
-module.exports = class Artist extends Person {
+class Artist extends Person {
     /**
      * A artist object from type person.
      * @param {String} name - The person's name.
@@ -27,7 +27,7 @@ module.exports = class Artist extends Person {
     }
 
     addSong(song) {
-        this.song.push(song);
+        this.songs.push(song);
         console.log(`${this.name}: Adding a song.`)
     }
 
@@ -61,3 +61,5 @@ postMalone.addSong("Circles");
 postMalone.addImageURL("https://www.google.com/search?q=post+malone&sxsrf=ALeKk00hrQVNKrd9UbdCOYVBwNecTIaKpw:1612292004278&tbm=isch&source=iu&ictx=1&fir=pjZAk-ixlcCa1M%252Cngq9gn60fLQgiM%252C%252Fg%252F11bw82cs0m&vet=1&usg=AI4_-kRr18vZTgCvqjrSLTxRj3g66jZlIw&sa=X&ved=2ahUKEwjVt8Hh78vuAhXqGDQIHSvvD9YQ_B16BAhIEAE#imgrc=pjZAk-ixlcCa1M");
 postMalone.addInstagramURL("https://www.instagram.com/postmalone/?hl=en");
 
+
+module.exports = Person;
