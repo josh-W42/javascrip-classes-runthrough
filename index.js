@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const Person = require("./person");
+const Artist = require("./artist");
 
 // const leo = new Person("Leo", true);
 // const ichigo = new Person("Kurosaki, Ichigo", false);

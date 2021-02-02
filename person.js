@@ -1,6 +1,7 @@
 module.exports = class Person {
-    constructor(name, isEngineer) {
+    constructor(name, isEngineer, age) {
         this.name = name;
+        this.age = age;
         this.isEngineer = isEngineer;
         this.walking = false;
     }
