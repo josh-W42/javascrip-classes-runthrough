@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/josh-W42/javascript-classes-runthrough#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.20.0"
   }
 }
